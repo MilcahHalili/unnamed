@@ -35,9 +35,8 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.title {
+  color: rgb(149, 167, 226);
 }
 
 .title a:hover,

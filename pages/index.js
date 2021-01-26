@@ -27,7 +27,7 @@ export default function Home() {
             <br/><br/>
             <input type="password" name="password" placeholder="PASSWORD" />
             <br/><br/>
-            <input type="submit" value="LOG IN" />
+            <input className="submit" type="submit" value="LOG IN" />
           </form>
         </section>
       </main>
