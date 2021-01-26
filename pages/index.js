@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import LoginForm from '../components/LoginForm'
 
 export default function Home() {
   return (
@@ -21,15 +22,7 @@ export default function Home() {
           UNNAMED
         </h1>
 
-        <section>
-          <form>
-            <input type="email" name="username" placeholder="USERNAME" />
-            <br/><br/>
-            <input type="password" name="password" placeholder="PASSWORD" />
-            <br/><br/>
-            <input className="submit" type="submit" value="LOG IN" />
-          </form>
-        </section>
+        <LoginForm />
       </main>
 
       <footer>
