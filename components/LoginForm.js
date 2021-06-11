@@ -1,4 +1,4 @@
-export default function Login() {
+const Login = () => {
   return (
     <section>
       <form>
@@ -11,3 +11,5 @@ export default function Login() {
     </section>
   )
 }
+
+export default Login
